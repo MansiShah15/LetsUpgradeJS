@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+    </head>
+    <body>
+        <h2>Day 2 Assignment 1</h2>
+        <script>
+            document.write();
+            var d= new Date();
+            var h=d.getHours();
+            var m=d.getMinutes();
+            var s=d.getSeconds();
+            var days=["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"]
+            document.write("today is : "+ days[d.getDay()]);
+            document.write("<br>");
+            if(h>12)
+                document.write("Current time is : "+ h-12+"PM : "+ m + " : "+ s);
+            else
+                document.write("current time is : "+ h + "AM : "+ m + " : " + s);
+        </script>
+    </body>
+</html>
