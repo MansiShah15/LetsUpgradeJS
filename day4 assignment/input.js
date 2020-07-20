@@ -1,2 +1,4 @@
-let ans = prompt("What is your name :");
-console.log("User name is " +ans);
+let s;
+do{
+s=prompt("Enter Number")
+}while(s<100);
